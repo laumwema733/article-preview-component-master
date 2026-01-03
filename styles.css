@@ -8,14 +8,16 @@
 }
 body {
   font-family: "Manrope", sans-serif;
+  background-color: #e9ecef;
 }
 .card {
   max-width: 375px;
   margin: 50px auto;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 60px;
   position: relative;
   border-radius: 5px;
+  background: #fff;
 }
 .card__img {
   width: 100%;
@@ -29,6 +31,9 @@ body {
   font-weight: 700;
   color: var(--heading-color);
   margin-bottom: 24px;
+}
+picture {
+  overflow: hidden;
 }
 .footer__img {
   width: 40px;
